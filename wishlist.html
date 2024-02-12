@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wishlist</title>
+  <style>
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Your Wishlist</h2>
+
+  <ul id="wishlist-items"></ul>
+
+  <script>
+    // Initialize an empty array to store wishlist items
+    let wishlistItems = [];
+
+    // Function to add an item to the wishlist
+    function addToWishlist(itemId) {
+      // Check if the item is already in the wishlist
+      if (wishlistItems.includes(itemId)) {
+        return; // Item already exists in wishlist
+      }
+
+      // Add the item to the wishlist array
+      wishlistItems.push(itemId);
+
+      // Update the wishlist display
+      updateWishlistDisplay();
+    }
+
+    // Function to update the wishlist display
+    function updateWishlistDisplay() {
+      const wishlistListElement = document.getElementById('wishlist-items');
+      wishlistListElement.innerHTML = ''; // Clear existing wishlist items
+
+      // Add wishlist items from the array
+      for (const itemId of wishlistItems) {
+        const wishlistItemElement = document.createElement('li');
+        wishlistItemElement.textContent = `Item ${itemId}`; // Replace with actual item details
+        wishlistListElement.appendChild(wishlistItemElement);
+      }
+    }
+  </script>
+</body>
+</html>

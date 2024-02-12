@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+    body{
+    background-color: rgb(144, 166, 167);
+    }
+    .contact-container{
+        color: bisque;
+        font-size: 30px;
+        background-color: rgb(6, 76, 76);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left;
+        margin-left: 300px;
+        width: 1000px;
+        border: 2px solid rgb(20, 14, 14);
+    }
+    .contact-info{
+        color: darkgrey;
+        margin-left: 80px;
+        padding: 10px;
+    }
+    a{
+        color: darkkhaki;
+    }
+    /* nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background-color: rgb(23, 22, 42);
+    padding: 20px;
+    box-sizing: border-box; */
+  
+  /* #navig{
+    margin-left: 5px;
+    color: azure;
+    position: relative;
+    margin-bottom: 0px;
+    color:rgb(220, 220, 233);
+    font-size: 18px;
+    font-weight: bold;
+    display: table;
+    width: 180px;
+    padding: 12px;
+    border-radius: 25px;
+}
+#navig:hover{
+    color: rgb(19, 27, 35);
+    background: rgb(133, 179, 223);
+    color: rgb(4, 7, 11);
+    font-size: 18px; 
+    padding: 10px; 
+    width: max-content;
+} */
+    </style>
+</head>
+<body><br><br><br>
+    <div class="contact-container">
+        <h1 style="text-align: center;">Contact Me</h1>
+        <div class="contact-info">
+            <p>Author: Aman Bhandare</p>
+            <p>
+                Email: <a href="mailto:amanbhandare@gmail.com">amanbhandare@gmail.com</a>
+            </p>
+            <p>Phone Number: <a href="tel:+91 9359244086">+91 9359244086</a></p>
+            <p>
+                Instagram: <a href="https://www.instagram.com/amvn.b/">@amvn.b</a>
+            </p>
+            <p>
+                LinkedIn:  <a href="https://www.linkedin.com/in/aman-bhandare-119408217/">Aman Bhandare</a>
+            </p>
+            <p>
+                GitHub: <a href="https://github.com/amanbhandare09">amanbhandare09</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Redirect to Gmail when email link is clicked
+        const emailLink = document.querySelector('a[href="mailto:janedoe@example.com"]');
+        emailLink.addEventListener('click', () => {
+            window.location.href = `mailto:janedoe@example.com`;
+        });
+
+        // Prompt to make a call when phone number link is clicked
+        const phoneLink = document.querySelector('a[href="tel:+1234567890"]');
+        phoneLink.addEventListener('click', () => {
+            if (!confirm('Are you sure you want to call +1 234-567-890?')) {
+                return false;
+            }
+        });
+    </script>
+    <!-- <nav>
+        <br><br>
+        <h1 style="color: antiquewhite;">MENU</h1>
+        <br><br>
+        <a id="navig" href="home.html">HOME</a>
+        <a id="navig" href="account.php">Account</a>
+        <a id="navig" href="explore.php">Explore</a>
+        <a id="navig" href="cart.php">Wishlist</a>
+        <br><br><br><br><br><br><br><br><br>
+        <a id="navig" href="admin.php">Manage Users</a>
+        <a id="navig" href="contactus.html">Contact Us</a>
+    </nav> -->
+</body>
+</html>
