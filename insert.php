@@ -12,7 +12,7 @@
             $sql ="INSERT INTO users(fullname, phoneno, email, username, password)
             VALUES('$fullname', '$phoneno', '$email', '$username', '$password')";
             if(mysqli_query($conn,$sql)){
-                echo("<script>alert(' Account Successfully Created! ');window.location.href ='home.html';</script>");
+                echo("<script>alert(' Account Successfully Created! ');window.location.href ='index.html';</script>");
             }else{
                 echo mysqli_error($conn);
             }

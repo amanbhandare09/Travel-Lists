@@ -30,13 +30,13 @@ $result = mysqli_query($conn, $sql);
         }
         mysqli_close($conn)
         ?>
-        <!-- <a href="home.html" class="button-link home-link">HOME</a> -->
+        <!-- <a href="index.html" class="button-link home-link">HOME</a> -->
     </div>
     <nav>
             <br><br>
             <h1 style="color: antiquewhite;">MENU</h1>
             <br><br>
-            <a id="navig" href="home.html">HOME</a>
+            <a id="navig" href="index.html">HOME</a>
             <a id="navig" href="account.php">Account</a>
             <a id="navig" href="explore.php">Explore</a>
             <a id="navig" href="cart.php">Wishlist</a>

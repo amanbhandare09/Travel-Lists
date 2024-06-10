@@ -168,7 +168,7 @@
             <br><br>
             <h1 style="color: antiquewhite;">MENU</h1>
             <br><br>
-            <a id="expnavig" href="home.html">HOME</a>  
+            <a id="expnavig" href="index.html">HOME</a>  
             <a id="expnavig" href="account.php">Account</a>
             <a id="expnavig" href="explore.php">Explore</a>
             <a id="expnavig" href="cart.php">Wishlist</a>

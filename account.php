@@ -27,7 +27,7 @@ echo " <a href='register.php'>Register</a>";
 echo " to view your account details.";
 echo "</div>";
 echo "<div class='home-box'>";
-echo "<br><br> <a href='home.html'>HOME</a>";
+echo "<br><br> <a href='index.html'>HOME</a>";
 echo "</div>";
 
 
@@ -88,7 +88,7 @@ $result = mysqli_query($conn, $sql);
             <br><br>
             <h1 style="color: antiquewhite;">MENU</h1>
             <br><br>
-            <a id="expnavig" href="home.html">HOME</a>  
+            <a id="expnavig" href="index.html">HOME</a>  
             <a id="expnavig" href="account.php">Account</a>
             <a id="expnavig" href="explore.php">Explore</a>
             <a id="expnavig" href="cart.php">Wishlist</a>
