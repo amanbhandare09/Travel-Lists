@@ -26,7 +26,7 @@ function notEmpty(ele,helperMsg){
     return true;
 }
 function isAlphabet(ele,helperMsg){
-    var alphaExp=/^[a-zA-Z]+$/;
+    var alphaExp= /^[a-zA-Z\s]+$/;
     if(ele.value.match(alphaExp))
     {   return true; }
     else{

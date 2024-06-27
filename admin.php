@@ -50,7 +50,7 @@ $result=mysqli_query($conn,$sql);
             <a id="expnavig" href="cart.php">Wishlist</a>
             <br><br><br><br><br><br><br><br><br>
             <a id="expnavig" href="admin.php">Manage Users</a>
-            <a id="expnavig" href="contactus.html">Contact Us</a>
+            <a id="expnavig" href="contactus.html">Contact</a>
             <br><br><br><br><br><br><br><br>
         </nav>
             </body>
